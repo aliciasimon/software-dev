@@ -1,0 +1,151 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Navigation Bar */
+nav{
+    background-color: white;
+    height: 70px;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    position: absolute;
+    z-index: 999;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    opacity: 0.6s;
+    text-decoration: underline;
+}
+
+/* Visual Display */
+
+/* Banner Image */
+#banner-img{
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/be/a0/78/bea0782a56f682de904f14cf3de64082.png");
+    -moz-background-size: cover; 
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+    margin-top: 0px;
+    object-fit: fill;
+    z-index: 1;
+    position: relative;
+}
+
+/* Text Display */
+#text-display{
+    margin-top: -570px;
+    margin-left: 5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.lead-phrase{
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.highlight{
+    font-weight: bold;
+    color: #FFD700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.description{
+    display: block;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+#btn{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    width: 30%;
+    display: block;
+    padding: 15px 30px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#btn:hover{
+    border: 3px solid #FFD700;
+    color: #FFD700;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* Member Profiles */
+.profile-section{
+    margin-top: 20px;
+}
+
+.profile-list{
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    list-style-type: none;
+    /* Column Width */
+    column-width: 400px;
+    -webkit-column-width: 400px;
+     -moz-column-width: 400px;
+}
+
+li{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    float: left;
+}
+
+img{
+    width: 400px;
+    display: block;
+}
+
+/* Profile Description */
+.hide{
+    /* display: none; */
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    z-index: 999;
+    position: relative;
+    transition: opacity .2s, visibility .2s;
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.hide h3{
+    color: rgb(231, 170, 14);
+}
+
+.hide h5{
+    color: gray;
+}
+
+img:hover{
+    opacity: 0.8;
+    border: 5px solid turquoise;
+    padding: 10px; 
+}
