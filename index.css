@@ -139,6 +139,11 @@ nav{
 .icon-bar img{
     width: 60px;
     padding: 10px;
+    transition: 0.3s;
+}
+
+.icon-bar img:hover{
+    opacity: 0.5;
 }
 
 /* About */
